@@ -3,6 +3,8 @@
 
 This is an attempt for ‘Udacity - Self-Driving Car NanoDegree: Finding Lane Lines on the Road’
 
+<img src="Project1_ImageOnly\test_images_output\Out1.JPG" width="480" alt="Image Only" />
+
 ##Major differences
 - I use MATLAB to process matrix operations. 
 I am new to Python. Python cannot directly calculate matrix but with ‘numpy’. It seems not convenient. So, I pass the message to MATLAB. Do not try to convert ‘nparray’ with ‘Matlab Array’. It is sadly slow!
