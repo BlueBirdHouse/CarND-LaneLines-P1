@@ -34,7 +34,7 @@ The reason is there is no line. The code can be fixed if you want this function.
 One line should be in the left part of the figure, and another one in the right figure.
 - It will be infected by ‘smart errors’, e.g. black car with white wheels.
 
-<img src="Project1_Video\test_images_output\Out2.JPG" width="480" alt="Challenge1" />
+<img src="Project1_Challenge\test_images_output\Out2.JPG" width="480" alt="Challenge1" />
 
 ##Further improvements
 The clustering should be used to separate two lanes together with my  'left and right eyes'.
