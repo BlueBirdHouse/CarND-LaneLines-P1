@@ -28,7 +28,7 @@ The reason is there is no line. The code can be fixed if you want this function.
 
 <img src="Project1_Video\test_images_output\Out1.JPG" width="480" alt="Video" />
 
-##Existing Problems 
+## Existing Problems 
 - It cannot process the condition that no line has been detected.
 - It cannot process the condition that the car is off the traffic lane. 
 One line should be in the left part of the figure, and another one in the right figure.
@@ -36,7 +36,7 @@ One line should be in the left part of the figure, and another one in the right 
 
 <img src="Project1_Challenge\test_images_output\Out2.JPG" width="480" alt="Challenge1" />
 
-##Further improvements
+## Further improvements
 The clustering should be used to separate two lanes together with my  'left and right eyes'.
 
 
@@ -44,4 +44,5 @@ The clustering should be used to separate two lanes together with my  'left and 
 
 
 Blue Bird
+
 Best Wishes
