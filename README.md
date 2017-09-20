@@ -21,8 +21,12 @@ The teacher of Udacity suggest turning parameters. But, I use Hough algorithm to
 - I filter error lines with the gradient.
 The Hough algorithm usually finds many lines. Some of them are noise with error gradient. I filter the lines with ‘abs(gradient)’ smaller than 15deg and bigger than 75deg. 
 
+<img src="Project1_Challenge\test_images_output\Out1.JPG" width="480" alt="Challenge1" />
+
 - I don’t draw lines which starts from the edge of interest range.
 The reason is there is no line. The code can be fixed if you want this function.
+
+<img src="Project1_Video\test_images_output\Out1.JPG" width="480" alt="Video" />
 
 ##Existing Problems 
 - It cannot process the condition that no line has been detected.
@@ -30,6 +34,7 @@ The reason is there is no line. The code can be fixed if you want this function.
 One line should be in the left part of the figure, and another one in the right figure.
 - It will be infected by ‘smart errors’, e.g. black car with white wheels.
 
+<img src="Project1_Video\test_images_output\Out2.JPG" width="480" alt="Challenge1" />
 
 ##Further improvements
 The clustering should be used to separate two lanes together with my  'left and right eyes'.
